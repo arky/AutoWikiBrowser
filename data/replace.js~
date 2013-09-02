@@ -1,0 +1,10 @@
+/*
+*Simple regex replaces all occurrences of to to 2. 
+*
+*/
+
+
+var content = document.getElementsByClassName("ve-ce-documentNode")[0].innerHTML; 
+newcontent = content.replace(/\bto\b/ig, "2");
+document.getElementsByClassName("ve-ce-documentNode")[0].innerHTML=newcontent;
+
